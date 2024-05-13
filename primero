@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles1.css">
+
+    <title>Agenda</title>
+
+</head>
+
+<body>
+
+
+
+    <header>
+
+        <h1>Agenda Personal</h1>
+
+    </header>
+
+
+
+    <section id="formulario">
+
+        <form>
+
+            <label for="nombre">Nombre:</label>
+
+            <input type="text" id="nombre" name="nombre" required>
+
+
+
+            <label for="fecha">Fecha:</label>
+
+            <input type="date" id="fecha" name="fecha" required>
+
+
+
+            <label for="descripcion">Descripción:</label>
+
+            <textarea id="descripcion" name="descripcion" required></textarea>
+
+
+
+            <button type="submit">Agregar Evento</button>
+
+        </form>
+
+    </section>
+
+
+
+    <section id="eventos">
+
+        <!-- Aquí se mostrarán los eventos agregados -->
+
+    </section>
+
+
+
+    <footer>
+
+        <p>&copy; 2023 Agenda Personal. Todos los derechos reservados.</p>
+
+    </footer>
+
+
+
+</body>
+
+</html>
